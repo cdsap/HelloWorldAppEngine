@@ -1,0 +1,12 @@
+ext.versions = [
+        kotlin      : '1.2.30',
+        appengine   : '1.3.3',
+        javaxServlet: '2.5'
+]
+
+ext.libraries = [
+        appengineGradle: "com.google.cloud.tools:appengine-gradle-plugin:$versions.appengine",
+        kotlinGradle   : "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin",
+        javaxServlet   : "javax.servlet:servlet-api:$versions.javaxServlet",
+        kotlin         : "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
+]
